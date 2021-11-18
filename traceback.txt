@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 18, in script
+    jump choiche1_a
+ScriptError: could not find label 'choiche1_a'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 18, in script
+    jump choiche1_a
+  File "/home/adrian/Desktop/renpy/renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/home/adrian/Desktop/renpy/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'choiche1_a'.
+
+Linux-5.11.0-38-generic-x86_64-with-debian-bullseye-sid
+Ren'Py 7.4.10.2178
+test 1.0
+Wed Nov 17 23:58:57 2021
